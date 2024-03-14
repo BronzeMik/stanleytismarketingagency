@@ -585,7 +585,7 @@ body {
 
 
 
-@media(max-width: 1020px) {
+@media(max-width: 1020px) and (min-width: 680px) {
   /*--------Navbar---------*/
   .navbar {
     flex-direction: column;
@@ -698,6 +698,11 @@ body {
 
   .hero-content h2 {
     font-size: 2rem;
+  }
+
+  body {
+    color: #000;
+    overflow-x: hidden;
   }
 
   
