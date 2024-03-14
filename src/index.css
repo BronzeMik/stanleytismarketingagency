@@ -562,27 +562,27 @@ body {
 
 /*--------Animations-----------*/
 .run-slide-right-animation {
-  animation: slideInFromRight 1.2s ease-in;
-  -webkit-animation: slideInFromRight 1.2s ease-in; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: slideInFromRight 1.2s ease-in; /* Firefox < 16 */
-  -ms-animation: slideInFromRight 1.2s ease-in; /* Internet Explorer */
-  -o-animation: slideInFromRight 1.2s ease-in; /* Opera < 12.1 */
+  animation: slideInFromRight .6 ease-in;
+  -webkit-animation: slideInFromRight .6 ease-in; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: slideInFromRight .6 ease-in; /* Firefox < 16 */
+  -ms-animation: slideInFromRight .6 ease-in; /* Internet Explorer */
+  -o-animation: slideInFromRight .6 ease-in; /* Opera < 12.1 */
 }
 
 .run-slide-left-animation {
-  animation: slideInFromLeft 1.2s ease-in;
-  -webkit-animation: slideInFromLeft 1.2s ease-in; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: slideInFromLeft 1.2s ease-in; /* Firefox < 16 */
-  -ms-animation: slideInFromLeft 1.2s ease-in; /* Internet Explorer */
-  -o-animation: slideInFromLeft 1.2s ease-in; /* Opera < 12.1 */
+  animation: slideInFromLeft .6 ease-in;
+  -webkit-animation: slideInFromLeft .6 ease-in; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: slideInFromLeft .6 ease-in; /* Firefox < 16 */
+  -ms-animation: slideInFromLeft .6 ease-in; /* Internet Explorer */
+  -o-animation: slideInFromLeft .6 ease-in; /* Opera < 12.1 */
 }
 
 .run-fade-in-animation {
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 2s; /* Firefox < 16 */
-  -ms-animation: fadein 2s; /* Internet Explorer */
-  -o-animation: fadein 2s; /* Opera < 12.1 */
-  animation: fadein 2s;
+  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 1s; /* Firefox < 16 */
+  -ms-animation: fadein 1s; /* Internet Explorer */
+  -o-animation: fadein 1s; /* Opera < 12.1 */
+  animation: fadein 1s;
 }
 
 
