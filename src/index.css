@@ -585,7 +585,7 @@ body {
 
 
 
-@media(max-width: 1020px) and (min-width: 680px) {
+@media(max-width: 1020px) {
   /*--------Navbar---------*/
   .navbar {
     flex-direction: column;
