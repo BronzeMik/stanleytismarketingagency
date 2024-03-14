@@ -714,6 +714,10 @@ body {
     color: #000;
   }
 
+  .offer-content-container p {
+    font-size: 16px;
+  }
+
   
 }
 
