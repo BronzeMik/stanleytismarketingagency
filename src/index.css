@@ -702,9 +702,8 @@ body {
     font-size: 2rem;
   }
 
-  body {
-    color: #000;
-    overflow-x: hidden;
+  .our-guarantee-container, .how-it-works {
+    padding-left: 0px
   }
 
   
