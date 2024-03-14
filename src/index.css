@@ -688,6 +688,10 @@ body {
   .offer-content-container p {
     text-align: center;
   }
+
+  body {
+    color: #000;
+  }
 }
 
 @media(max-width: 680px) {
@@ -704,6 +708,10 @@ body {
 
   .our-guarantee-container, .how-it-works {
     padding-left: 0px
+  }
+
+  body {
+    color: #000;
   }
 
   
