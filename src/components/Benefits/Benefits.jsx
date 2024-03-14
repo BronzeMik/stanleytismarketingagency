@@ -1,14 +1,12 @@
 import BenefitsComponent from "./BenefitsComponent";
-import IsVisible from "react-is-visible";
+
 
 
 
 export default function Benefits() {
     return(
         <>
-        <IsVisible once>
-            {(isVisible) => 
-            <div className={`benefits-container ${isVisible ? 'run-fade-in-animation' : ''}`}>
+            <div className='benefits-container'>
             <BenefitsComponent
             style='1'
             img='1'
@@ -24,8 +22,6 @@ export default function Benefits() {
             par='Unlike cookie-cutter solutions, we take the time to understand your unique business needs. This deep understanding forms the foundation of our tailored strategies, ensuring that every campaign is crafted to deliver maximum impact.'
             />
         </div>
-            }
-        </IsVisible>
         
             
         </>
