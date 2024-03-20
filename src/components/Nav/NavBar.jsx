@@ -1,6 +1,6 @@
 import CtaBtn from "../CtaBtn";
 import MenuItems from "./MenuItems";
-import logo from '../../../public/stanley-marketing-logo.png'
+import logo from '../../assets/stanley-t-is-marketing-logo.png'
 
 export default function NavBar() {
     return(

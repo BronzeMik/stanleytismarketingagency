@@ -10,7 +10,7 @@ export default function Hero() {
     return(
         <IsVisible once>
             {(isVisible) => 
-            <div className={`hero-container ${isVisible ? 'run-fade-in-animation' : ''}`} id='hero' ref={nodeRef}>
+            <div className={`hero-container ${isVisible ? 'run-fade-in-animation' : ''}`} ref={nodeRef}>
                 <HeroContent />
             </div>}
         </IsVisible>

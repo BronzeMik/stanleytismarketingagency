@@ -8,7 +8,7 @@ export default function OurGuarantee() {
         <>
         
         
-        <div className='our-guarantee-container'>
+        <div className='our-guarantee-container' id='guarantee'>
             <div className='our-guarantee'>
                 <GuaranteeContent />
                 <GuaranteeList />
