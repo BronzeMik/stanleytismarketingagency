@@ -5,6 +5,7 @@ import OurGuarantee from "../components/Guarantee/OurGuarantee";
 import Hero from "../components/Hero/Hero";
 import HomeOffer from "../components/HomeOffer/HomeOffer";
 import HowItWorks from "../components/HowItWorks/HowItWorks";
+import OfferGrid from "../components/OfferGrid";
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
             <HomeOffer />
             <HowItWorks />
             <OurGuarantee />
+            <OfferGrid />
             <Benefits />
             <FooterOffer />
             <FooterSocial />

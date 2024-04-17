@@ -110,6 +110,19 @@ body {
 }
 
 /*---------- Pop-up ------------*/
+.offer-card-container .popup {
+  height: fit-content;
+  position: relative;
+  top: 200px;
+  width: 60%;
+}
+
+.offer-card-container .popup li {
+  color: #000;
+  text-align: left;
+  padding: 10px 0px;
+  font-size: 20px;
+}
 .overlay {
   position: fixed;
   top: 0;
@@ -474,6 +487,84 @@ body {
 
 .guarantee-description p {
   font-size: 1.2rem;
+}
+
+
+/* ----------------Offer Grid----------------- */
+.offer-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 80px 0px;
+}
+.offer-grid-header {
+  width: 85%;
+  padding: 50px 0px 20px 0px;
+}
+.offer-grid-header h2, .offer-grid-header p {
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+}
+
+.offer-grid-header h2 {
+  text-transform: uppercase;
+  color:#006af3;
+  font-size: 3em;
+}
+
+.offer-grid-header p {
+  font-size: 1.2em;
+}
+
+.offer-card-container {
+  color: #eae9e9;
+  background-color: #1a1a1a;
+  border: 1px solid #fbfbfb;
+  display: flex;
+  justify-content: center;
+}
+
+.offer-card-container:hover {
+  color: #1a1a1a;
+  background-color: #eae9e9;
+}
+
+.offer-card {
+  padding: 50px 10px
+}
+
+.offer-card h1 {
+  font-size: 200px;
+  padding: 0px;
+  margin: 0px;
+  color: #e7a126;
+}
+
+.offer-card h6 {
+  padding: 0px;
+  margin: 0px 0px 20px 0px;
+  font-size: 16px;
+}
+
+.offer-grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 90%;
+}
+
+.offer-card-btn {
+  text-transform: uppercase;
+  background-color: #006af3;
+  color: #fff;
+  width: 200px;
+  transition: transform .1s ease-in;
+  margin-top: 20px;
+}
+
+.offer-card-btn:hover {
+  transform: scale(1.1, 1.2);
 }
 
 /*-------------Benefits----------*/
