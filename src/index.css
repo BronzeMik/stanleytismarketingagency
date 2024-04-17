@@ -423,6 +423,37 @@ body {
   width: 400px;
 }
 
+/* -----------Free Trial--------------- */
+
+.free-trial-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #e7a026;
+  padding: 40px 0px;
+}
+
+.free-trial-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #fff;
+  padding: 80px 0px;
+  width: 80%;
+}
+
+.free-trial-content img {
+  width: 40%;
+}
+
+.free-trial-content p {
+  text-align: justify;
+}
+
+.free-trial-content {
+  padding: 20px 40px;
+}
+
 /*-----------Guarantee------------*/
 .guarantee-grid-child-1 {
   background-color: #fff;
@@ -669,6 +700,67 @@ body {
   color: #fff;
 }
 
+/* ------------------Contact Us----------------- */
+
+.contact-us-form-container {
+  display: flex;
+  text-align: left;
+  justify-content: start;
+  
+}
+
+.contact-us-form-container form {
+  width: 90%;
+}
+
+.contact-us-form-container input {
+  width: 100%;
+  padding: 10px 0px;
+  margin-bottom: 15px;
+}
+
+.contact-us-form-container textarea {
+  width: 100%;
+}
+
+.contact-us-form-container label {
+  font-size: 18px;
+
+}
+
+.contact-us-form-container h2 {
+  font-size: 2.5em;
+  text-transform: uppercase;
+}
+.contact-us-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+}
+.contact-us-img img {
+  width: 90%;
+  height: 100%
+}
+
+.contact-us-page .contact-phone {
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+  width: 80%;
+  align-items: center;
+  justify-items: start;
+}
+
+.contact-us-hero-icon-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 1.2em;
+}
+
+
+
+
 /*--------Animations-----------*/
 .run-slide-right-animation {
   animation: slideInFromRight .6 ease-in;
@@ -814,9 +906,34 @@ body {
   .hero-video-container video {
     width: 90vw;
   }
+  /* ----------Offer Container--------- */
+  .offer-content-container {
+    width: 100%;
+    padding: 0px 0px 20px 0px;
+  }
   /* ----------offer grid container---------- */
   .offer-grid-container {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* --------Free Trial---------- */
+  .free-trial-container {
+    grid-template-columns: 1fr;
+    width: 100%;
+    background-color: #e7a026;
+  }
+
+  .free-trial-content img {
+    width: 80%;
+  }
+
+  .contact-us-form-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-us-form-container h2 {
+    text-align: center;
   }
 }
 
