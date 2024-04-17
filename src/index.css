@@ -696,7 +696,7 @@ body {
 
 
 
-@media(max-width: 1020px) {
+@media(max-width: 1024px) {
   /*--------Navbar---------*/
   .navbar {
     flex-direction: column;
@@ -814,6 +814,10 @@ body {
   .hero-video-container video {
     width: 90vw;
   }
+  /* ----------offer grid container---------- */
+  .offer-grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media(max-width: 680px) {
@@ -835,6 +839,11 @@ body {
     font-size: 16px;
   }
 
+  /* -----------offer grid container------------- */
+  .offer-grid-container {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
   
 }
 
