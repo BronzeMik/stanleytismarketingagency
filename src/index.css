@@ -228,6 +228,10 @@ body {
   list-style: none;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 /*-------Hero--------*/
 .hero-container {
   width: 100vw;
@@ -786,21 +790,117 @@ body {
   animation: fadein 1s;
 }
 
+@keyframes slideUp {
+  0% {
+    transform: translateY(0%);
+  }
+
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.slideUp {
+  animation: slideUp .7s ease;
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+.slideDown {
+  animation: slideDown .7s ease;
+}
+
 
 
 @media(max-width: 1024px) {
   /*--------Navbar---------*/
-  .navbar {
-    flex-direction: column;
+  .hidden {
+    visibility: hidden;
   }
 
+  .navbar ul.mobile-nav {
+    position: absolute;
+    top: 80px;
+    right: 0px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    z-index: -999;
+    background-color: #000;
+
+  }
+
+  .navbar ul.mobile-nav li a {
+    background-color: #000;
+    padding: 10px 0;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    display: block;
+  }
+
+  .navbar ul.mobile-nav li {
+    color: #fff;
+    width: 100vw;
+  }
+
+  .nav-logo ul a:hover {
+    background-color: #fff;
+    color: #a80102;
+  }
+
+  .navbar {
+    flex-direction: column;
+    padding-bottom: 20px;
+    z-index: 999;
+    position: relative;
+  }
+
+  .desktop-nav{
+    display: none;
+  }
+
+  #hamburger {
+    display: block;
+  }
+
+  .icon i {
+    padding-right: 50px;
+    font-size: 34px;
+    color: #1a1a1a;
+  }
+
+  .nav-cta-btn {
+    display: none;
+  }
   .nav-menu {
     display: none;
   }
 
   .nav-logo {
-    width: 60%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 999;
+    background-color: #fff;
   }
+
+  .nav-logo img {
+    width: 20%;
+    padding-left: 20px;
+  }
+
 
   .nav-cta {
     margin-top: 20px;
@@ -808,7 +908,7 @@ body {
   }
 
   .hero-container {
-    height: 1000px;
+    height: 1200px;
   }
 
   .hero-content {
