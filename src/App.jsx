@@ -1,15 +1,19 @@
-import './App.css'
-import NavBar from './components/Nav/NavBar'
-import Home from './pages/Home'
-
+import Marketing from './pages/Marketing';
+import Apps from './pages/Apps';
+import {
+  Routes,
+  Route
+} from "react-router-dom";
 
 function App() {
 
 
   return (
     <>
-      <NavBar />
-      <Home />
+      <Routes>
+        <Route path='/' element={<Apps />} />
+        <Route path='/marketing' element={<Marketing />} />
+      </Routes>
     </>
   )
 }
