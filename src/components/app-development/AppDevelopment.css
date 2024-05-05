@@ -828,6 +828,8 @@
 
     .get-started-form input {
         width: 80%;
+        background-color: #fff;
+        color: #000;
     }
 
     .get-started-text {
