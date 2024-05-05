@@ -16,7 +16,7 @@ function Header() {
         <nav className={`nav ${isMenuOpen ? 'open' : ''}`}>
           <ul>
             <li><a href="#pricing">Pricing</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
+            {/* <li><a href="#testimonials">Testimonials</a></li> */}
             <li><a href="#contact">Contact</a></li>
           </ul>
           <div className="cta">

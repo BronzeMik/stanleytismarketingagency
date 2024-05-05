@@ -12,7 +12,7 @@ import IncreaseLoyalty from './components/IncreaseLoyalty'
 import Payment from './components/Payment'
 import PerformanceReporting from './components/PerformanceReporting'
 import PricingGrid from './components/PricingGrid'
-import ReviewSlider from './components/ReviewSlider'
+// import ReviewSlider from './components/ReviewSlider'
 import Header from './components/header/header'
 
 function App() {
@@ -23,7 +23,6 @@ function App() {
       <Hero />
       <PricingGrid />
       <Features />
-      <ReviewSlider />
       <Payment />
       <CustomerReviewsFeatures />
       <PerformanceReporting />
