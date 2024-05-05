@@ -18,7 +18,7 @@ import Header from './components/header/header'
 function App() {
 
   return (
-    <>
+    <div style={{backgroundColor: '#fff'}}>
       <Header />
       <Hero />
       <PricingGrid />
@@ -32,7 +32,7 @@ function App() {
       <GetStarted />
       {/* <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhomeserviceconnectus%2Fposts%2Fpfbid0g3paVcdBHTihH7i2bBhrpqN9xHX4fU9NzcU3Zk69nKv9W9EzhhXATpwqmQ9fHDLvl&show_text=true&width=500&is_preview=true" width="500" height="442" style={{border:'none', overflow:'hidden'}} scrolling="no" frameBorder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> */}
       <Footer />
-    </>
+    </div>
   )
 }
 
