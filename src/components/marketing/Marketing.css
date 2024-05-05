@@ -836,7 +836,7 @@ button:focus-visible {
 
   .navbar ul.mobile-nav {
     position: absolute;
-    top: 80px;
+    top: 160px;
     right: 0px;
     width: 100vw;
     display: flex;
@@ -887,6 +887,7 @@ button:focus-visible {
     font-size: 34px;
     color: #1a1a1a;
   }
+
 
   .nav-cta-btn {
     display: none;
@@ -1064,7 +1065,9 @@ button:focus-visible {
 }
 
 @media(max-width: 680px) {
-
+  .navbar ul.mobile-nav {
+    top: 85px;
+  }
 
   .marketing-hero-content h2 {
     font-size: 2rem;

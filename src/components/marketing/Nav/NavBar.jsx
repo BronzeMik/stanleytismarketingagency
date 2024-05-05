@@ -3,6 +3,7 @@ import MenuItems from "./MenuItems";
 import logo from '../../../assets/stanley-t-is-marketing-logo.png';
 import { useState } from "react";
 
+
 export default function NavBar() {
     const [isHidden, setIsHidden] = useState(true);
     return(
@@ -18,7 +19,7 @@ export default function NavBar() {
                     <img src={logo} alt='Stanley T Is Marketin' />
                     
                     <a href="#" className="marketing-icon" id='hamburger' onClick={() => isHidden ? setIsHidden(false) : setIsHidden(true)}>
-                        <i className="fa fa-bars"></i>
+                        <i className="fa fa-bars"/>
                     </a>
                 </div>
                 
