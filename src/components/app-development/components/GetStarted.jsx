@@ -38,7 +38,7 @@ function GetStarted() {
                     <input type='text' name='website' placeholder='Restaurant Website' className='website' />
                     
                     <div className='consent'>
-                        <input type='checkbox' name='consent' id='consent' required/><span>I understand that by submitting this form Craver may contact me*</span></div>
+                        <input type='checkbox' name='consent' id='consent' required/><span>I understand that by submitting this form Stanley T Is Marketing may contact me*</span></div>
                     <button type="submit">Submit</button>
                 </form>
             </div>
